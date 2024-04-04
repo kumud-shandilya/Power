@@ -1,14 +1,14 @@
 package main
 
 import (
-	"github.com/getporter/skeletor/pkg/skeletor"
+	"github.com/getporter/power/pkg/power"
 	"github.com/spf13/cobra"
 )
 
-func buildUpgradeCommand(m *skeletor.Mixin) *cobra.Command {
+func buildUninstallCommand(m *power.Mixin) *cobra.Command {
 	cmd := &cobra.Command{
-		Use:   "upgrade",
-		Short: "Execute the invoke functionality of this mixin",
+		Use:   "uninstall",
+		Short: "Execute the uninstall functionality of this mixin",
 		RunE: func(cmd *cobra.Command, args []string) error {
 			return m.Execute(cmd.Context())
 		},

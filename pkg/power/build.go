@@ -1,4 +1,4 @@
-package skeletor
+package power
 
 import (
 	"context"
@@ -12,9 +12,9 @@ type BuildInput struct {
 	Config MixinConfig
 }
 
-// MixinConfig represents configuration that can be set on the skeletor mixin in porter.yaml
+// MixinConfig represents configuration that can be set on the power mixin in porter.yaml
 // mixins:
-// - skeletor:
+// - power:
 //	  clientVersion: "v0.0.0"
 
 type MixinConfig struct {

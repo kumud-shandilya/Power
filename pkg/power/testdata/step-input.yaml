@@ -1,5 +1,5 @@
 install:
-  - skeletor:
+  - power:
       description: "Summon Minion"
       arguments:
       - "man-e-faces"

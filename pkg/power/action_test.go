@@ -1,4 +1,4 @@
-package skeletor
+package power
 
 import (
 	"io/ioutil"

@@ -1,4 +1,4 @@
-package skeletor
+package power
 
 import (
 	"get.porter.sh/porter/pkg/runtime"
